@@ -1,12 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function StopWatchButton() {
+    function editTime(){
+
+    }
+
+    function resetTime(){
+
+    }
+
   return (
     <div>
       {/* Buttons for the stopwatch   */}
-      <button>Start</button>
+      <button onClick={editTime}>Start</button>
       <button>Reset</button>
-      <button>Lap</button>
+      <button onClick={resetTime}>Lap</button>
     </div>
   );
 }
